@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly button which is size is large 1`] = `
+<button
+  className="c-button c-button--default c-button--large"
+>
+  Large variation
+</button>
+`;
+
+exports[`Button renders correctly button which is size is medium 1`] = `
+<button
+  className="c-button c-button--default c-button--medium"
+>
+  Medium variation
+</button>
+`;
+
+exports[`Button renders correctly button which is size is small 1`] = `
+<button
+  className="c-button c-button--default c-button--small"
+>
+  Small variation
+</button>
+`;
+
+exports[`Button renders correctly button which is theme is default 1`] = `
+<button
+  className="c-button c-button--default c-button--medium"
+>
+  Default variation
+</button>
+`;
+
+exports[`Button renders correctly button which is theme is primary 1`] = `
+<button
+  className="c-button c-button--primary c-button--medium"
+>
+  Primary variation
+</button>
+`;
+
+exports[`Button renders correctly button which is theme is secondary 1`] = `
+<button
+  className="c-button c-button--secondary c-button--medium"
+>
+  Secondary variation
+</button>
+`;
+
+exports[`Button renders correctly button which is unspecified any property 1`] = `
+<button
+  className="c-button c-button--default c-button--medium"
+>
+  No property variation
+</button>
+`;

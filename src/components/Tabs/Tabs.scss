@@ -1,0 +1,137 @@
+@import '../../styles//style.scss';
+
+.c-tabs {
+    font-family: $font-family;
+
+    &__list {
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        border-bottom: 1px solid black;
+
+        &__list-item {
+            cursor: pointer;
+
+            &--active {
+                border: 1px solid black;
+                margin-bottom: -1px;
+                border-bottom-color: white;
+            }
+        }
+
+    }
+
+    &__content {
+        padding: 8px 16px;
+    }
+
+    &--primary {
+
+        .c-tabs__list {
+            border-bottom: 1px solid $primary-color;
+
+            &__list-item {
+                color: $primary-color;
+
+                &--active {
+                    border: 1px solid $primary-color;
+                    border-bottom-color: white;
+                }
+            }
+
+        }
+    }
+
+    &--secondary {
+
+        .c-tabs__list {
+            border-bottom: 1px solid $secondary-color;
+
+            &__list-item {
+                color: $secondary-color;
+
+                &--active {
+                    border: 1px solid $secondary-color;
+                    border-bottom-color: white;
+                }
+            }
+
+        }
+    }
+
+    &--dark {
+
+        .c-tabs__list {
+            border-bottom: 1px solid black;
+
+            &__list-item {
+                color: black;
+
+                &--active {
+                    border: 1px solid black;
+                    border-bottom-color: white;
+                }
+            }
+
+        }
+    }
+
+    &--default {
+
+        .c-tabs__list {
+            border-bottom: 1px solid #c9c1c1;
+
+            &__list-item {
+                color: lightgray;
+
+                &--active {
+                    border: 1px solid #c9c1c1;
+                    border-bottom-color: white;
+                }
+            }
+
+        }
+    }
+
+    &--small {
+        font-size: $font-small;
+
+        .c-tabs__list {
+            padding: 0 16px;
+
+            &__list-item {
+                margin-right: 8px;
+                padding: 4px 16px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &--medium {
+        font-size: $font-medium;
+
+        .c-tabs__list {
+            padding: 0 16px;
+
+            &__list-item {
+                margin-right: 16px;
+                padding: 8px 16px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &--large {
+        font-size: $font-large;
+
+        .c-tabs__list {
+            padding: 0 16px;
+
+            &__list-item {
+                margin-right: 16px;
+                padding: 16px 32px;
+                cursor: pointer;
+            }
+        }
+    }
+}

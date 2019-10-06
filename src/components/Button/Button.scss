@@ -1,0 +1,41 @@
+@import '../../styles/style.scss';
+
+.c-button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: $font-family;
+
+    &--primary {
+        background-color: $primary-color;
+        color: white;
+        outline: none;
+    }
+
+    &--secondary {
+        background-color: $secondary-color;
+        color: white;
+        outline: none;
+    }
+
+    &--small {
+        padding: 4px 8px;
+        font-size: $font-small;
+    }
+
+    &--medium {
+        padding: 6px 12px;
+        font-size: $font-medium;
+    }
+
+    &--large {
+        padding: 9px 18px;
+        font-size: $font-large;
+    }
+
+    &--block {
+        display: block;
+        width: 100%;
+    }
+}
